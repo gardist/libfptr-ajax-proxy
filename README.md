@@ -20,13 +20,12 @@
 <br>в папку proxydrv поместите proxydrv.java
 
 скомпилируйте программу:
-<b>/usr/bin/javac -cp <путь до драйвера libfptr10.jar> <путь до proxydrv.java></b>
+<br><b>/usr/bin/javac -cp <путь до драйвера libfptr10.jar> <путь до proxydrv.java></b>
 
 (пример компиляции <b>compile.sh</b>)
 
 запустите программу:
-
-<b>/usr/bin/java -classpath .:<путь до драйвера libfptr10.jar> proxydrv.proxydrv <ajax запрос></b>
+<br><b>/usr/bin/java -classpath .:<путь до драйвера libfptr10.jar> proxydrv.proxydrv <ajax запрос></b>
 
 (пример запроса <b>run.sh</b>)
 
