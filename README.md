@@ -1,4 +1,4 @@
-# libfptr-ajax-proxy
+# libfptr-json-proxy
 
 Программа предназначена для передачи ajax запросов в кассовый аппарат.
 <br>Используется в связке с драйверами Атол.
@@ -9,7 +9,7 @@
 
 создайте структуру папок:
 <ul>
-	<li>/ajaxproxy</li>
+	<li>/jsonproxy</li>
 	<ul>/java
 		<li>/src</li>
 		<ul><li>/proxydrv</li></ul>
