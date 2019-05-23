@@ -29,5 +29,5 @@
 
 (пример запроса <b><a href="https://github.com/gardist/libfptr-json-proxy/blob/master/src/run.sh" target="blank">run.sh</a></b>)
 
-подробнее о ajax запросах можно найти на официальной странице интеграции драйвера:
+подробнее о json запросах можно найти на официальной странице интеграции драйвера:
 http://integration.atol.ru
