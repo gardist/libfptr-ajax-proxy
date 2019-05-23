@@ -1,6 +1,6 @@
 # libfptr-json-proxy
 
-Программа предназначена для передачи ajax запросов в кассовый аппарат.
+Программа предназначена для передачи json запросов в кассовый аппарат.
 <br>Используется в связке с драйверами Атол.
 
 Инсталляция:
@@ -22,12 +22,12 @@
 скомпилируйте программу:
 <br><b>/usr/bin/javac -cp <путь до драйвера libfptr10.jar> <путь до proxydrv.java></b>
 
-(пример компиляции <b><a href="https://github.com/gardist/libfptr-ajax-proxy/blob/master/src/compile.sh" target="blank">compile.sh</a></b>)
+(пример компиляции <b><a href="https://github.com/gardist/libfptr-json-proxy/blob/master/src/compile.sh" target="blank">compile.sh</a></b>)
 
 запустите программу:
 <br><b>/usr/bin/java -classpath .:<путь до драйвера libfptr10.jar> proxydrv.proxydrv <ajax запрос></b>
 
-(пример запроса <b><a href="https://github.com/gardist/libfptr-ajax-proxy/blob/master/src/run.sh" target="blank">run.sh</a></b>)
+(пример запроса <b><a href="https://github.com/gardist/libfptr-json-proxy/blob/master/src/run.sh" target="blank">run.sh</a></b>)
 
 подробнее о ajax запросах можно найти на официальной странице интеграции драйвера:
 http://integration.atol.ru
